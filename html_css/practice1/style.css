@@ -1,0 +1,38 @@
+p{
+    font-weight: 500;
+    color: blue;
+}
+a{
+    color: orange;
+}
+.wrapper{
+    padding: 24px;
+    border: solid 2px grey;
+    font-size: 18px;
+}
+h1{
+    color: pink;
+    font-size: 3em;
+}
+.wrapper .item .element {
+    background-color: antiquewhite;
+}
+.item .element  {
+    background-color: yellow;
+}
+.item ~ .element {
+    background-color: lightblue;
+}
+
+/* h1, p { для всех h1 и p
+    color: red;
+} */
+
+h1 + p {
+    color: red;
+}
+
+.wrapper > .element {
+    font-size: 24px;
+}
+
