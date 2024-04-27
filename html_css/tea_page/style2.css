@@ -99,6 +99,7 @@ body{
     width: 20vw;
     border-radius: 12px;
     margin: 20px 0;
+    border: none;
 }
 .minititle{
     font-family: Montserrat;
@@ -168,4 +169,119 @@ body{
     display: flex;
     justify-content: space-between;
 
+}
+.price{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    text-align: right;
+
+}
+.sale{
+    color: #FF795C;
+}
+.old_price{
+    color: #6F7F8A;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.26px;
+    text-align: left;
+    text-decoration: line-through;
+}
+.price_container{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    background-color: #4D443E;
+    color: #DCDCDC;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.94px;
+    text-align: center;
+    width: 293px;
+    height: 60px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    margin: 30px 0 150px 40%;
+    border: none;
+}
+.footer{
+    background-color: #4D443E;
+    opacity: 100%;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    min-height: 181px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.footer_nav{
+    width: 737px;
+    color: #DCDCDC;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_container{
+    width: 1292px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+.footer_container2{
+    width: 1292px;
+    margin: 0 auto;
+    display: flex;
+    min-height: 82px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_icn{
+    width: 30px;
+    height: 30px;
+}
+.footer_icns{
+    width: 182px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_logo{
+    color: #FFFFFF;
+}
+.copyright{
+    color: #8C8C8C;
+    display: block;
+    margin: 0 0;
+}
+.igor{
+    margin: 0 0;
+}
+.mail{
+    width: 404px;
+    height: 60px;
+    padding: 0px 12px 0px 12px;
+    gap: 0px;
+    border-radius: 12px;
+    /* opacity: 0px; */
+    background-color: #FFFFFF29;
+    border: none;
+
+}
+.btn2{
+    width: 293px;
+    height: 60px;
+    padding: 10px 0px 10px 0px;
+    gap: 10px;
+    border-radius: 12px;
+    opacity: 0px;
+    border: none;
+}
+.placeholders{
+    width: 737px;
+    display: flex;
 }
